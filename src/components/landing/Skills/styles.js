@@ -44,12 +44,12 @@ export const Details = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
-    grid-gap: .5rem;
+    grid-gap: 0.5rem;
     padding: 3rem 0px;
-    ${'' /* font-size: 1.2rem; */}
+    ${"" /* font-size: 1.2rem; */}
   }
   .skill_box {
-    padding: .5rem;
+    padding: 0.5rem;
     cursor: pointer;
   }
   .skill-box:hover > .skill_title:after,
@@ -78,7 +78,7 @@ export const Details = styled.div`
     background-color: #2ecc71;
     transition: 0.5s;
   }
-  
+
   .skill_title:before {
     content: "";
     position: absolute;
@@ -93,7 +93,7 @@ export const Details = styled.div`
 
   img {
     width: 50px;
-    ${'' /* height: px; */}
+    ${"" /* height: px; */}
     position: relative;
     border-radius: 45px;
     background-color: white;
@@ -123,13 +123,13 @@ export const Details = styled.div`
     z-index: 2;
   }
   @media (max-width: 990px) {
-    .container {
+    .containers {
       grid-template-columns: repeat(3, 1fr);
       padding: 2rem 0px;
     }
   }
   @media (max-width: 650px) {
-    .container {
+    .containers {
       grid-template-columns: repeat(2, 1fr);
     }
   }
