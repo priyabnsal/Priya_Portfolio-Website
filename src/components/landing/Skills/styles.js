@@ -123,13 +123,13 @@ export const Details = styled.div`
     z-index: 2;
   }
   @media (max-width: 990px) {
-    .container {
+    .containers {
       grid-template-columns: repeat(3, 1fr);
       padding: 2rem 0px;
     }
   }
   @media (max-width: 650px) {
-    .container {
+    .containers {
       grid-template-columns: repeat(2, 1fr);
     }
   }
