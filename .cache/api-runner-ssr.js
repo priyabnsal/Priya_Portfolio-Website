@@ -1,26 +1,26 @@
 var plugins = [{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-next-seo/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-next-seo/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"transpileTemplateLiterals":true,"pure":false},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Inter:300,400,600,700,800,900"],"display":"swap"},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
       options: {"plugins":[],"logo":"./static/favicon/favicon-512.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"short_name":"starter","start_url":"/","display":"minimal-ui","icon":"./static/favicon/favicon-512.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"b57aaefed6f6f6be9a3511c8fe06fe2e"},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('F:/reactproject/me_qprofile_module_create_profile_stub-master/profile-frontend/gatsby-ssr'),
+      plugin: require('C:/Users/Priya Bansal/Documents/GitHub/priyaportfolio/Priya_Portfolio-Website/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
